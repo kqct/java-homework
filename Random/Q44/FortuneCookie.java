@@ -10,7 +10,7 @@ public class FortuneCookie {
         "Serious trouble will bypass you.",
         "You are very talented in many ways."};
 
-        System.out.println("Fortune cookie says: " + cookieQuotes[1+random.nextInt(5)]);
+        System.out.println("Fortune cookie says: " + cookieQuotes[random.nextInt(6)]);
 
     }
 }
